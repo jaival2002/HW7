@@ -1,3 +1,5 @@
+/* To create an interactive photo gallery according to the requirements, you'll need to add some CSS to style the gallery and make it interactive. Below is an example of an HTML file (hw7.blazerid.html) with the necessary changes and a CSS file (hw7.blazerid.css) to style it: */
+/* GPT Prompt */ 
 
 body, html {
     margin: 0;
@@ -16,7 +18,7 @@ body {
     text-align: center;
     margin-bottom: 20px;
 }
-
+/* This code is making the pictures too close and big. Make the pictures smaller and in a grid:  GPT Prompt */
 .photo-grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr); 
@@ -36,7 +38,7 @@ body {
     max-width: 300px; 
     margin: 0 auto; 
 }
-
+            /* Use the :nth-child() pseudo-class to style every other grid item with a different border style. */
 .mee {
     max-width: 100%;
     max-height: 100%;
