@@ -38,7 +38,7 @@ body {
     max-width: 300px; 
     margin: 0 auto; 
 }
-            /* Use the :nth-child() pseudo-class to style every other grid item with a different border style. */
+               /* Use the :nth-child() pseudo-class to style every other grid item with a different border style. */
 .mee {
     max-width: 100%;
     max-height: 100%;
